@@ -32,9 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.JScript" />
-    <Reference Include="Noesis.Javascript">
-      <HintPath>..\..\build\lib\Orchard-JavaScript.Net-master\Noesis.Javascript.dll</HintPath>
+    <Reference Include="Jurassic">
+      <HintPath>..\..\build\lib\Jurassic\Jurassic.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

@@ -31,6 +31,7 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button_openFile = new System.Windows.Forms.Button();
+            this.button_exec = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -52,11 +53,22 @@
             this.button_openFile.UseVisualStyleBackColor = true;
             this.button_openFile.Click += new System.EventHandler(this.button_openFile_Click);
             // 
+            // button_exec
+            // 
+            this.button_exec.Location = new System.Drawing.Point(83, 348);
+            this.button_exec.Name = "button_exec";
+            this.button_exec.Size = new System.Drawing.Size(75, 23);
+            this.button_exec.TabIndex = 2;
+            this.button_exec.Text = "执行脚本";
+            this.button_exec.UseVisualStyleBackColor = true;
+            this.button_exec.Click += new System.EventHandler(this.button_exec_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(666, 385);
+            this.Controls.Add(this.button_exec);
             this.Controls.Add(this.button_openFile);
             this.Controls.Add(this.textBox1);
             this.Name = "FormMain";
@@ -71,5 +83,6 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button_openFile;
+        private System.Windows.Forms.Button button_exec;
     }
 }

@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 
+
 namespace MyTextor
 {
     public partial class FormMain : Form
@@ -33,6 +34,12 @@ namespace MyTextor
             {
 
             }
+        }
+
+        private void button_exec_Click(object sender, EventArgs e)
+        {
+            string t = textBox1.Text.Trim();
+            MyJS.processText(t);
         }
     }
 }
